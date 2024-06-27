@@ -28,6 +28,37 @@ El objetivo de este desafío es explorar la vectorización de documentos y medir
 
 Para más detalles sobre la implementación y ejecución de este desafío, consulta los scripts y archivos mencionados.
 
-## Cómo Ejecutar
+## Desafío 2: Custom Embeddings con Gensim
 
-1. Clona este repositorio:
+En este desafío, se explorará la creación de vectores personalizados utilizando Gensim basado en un e-book obtenido de Project Gutenberg.
+
+### Objetivos
+
+1. **Creación de Vectores con Gensim:**
+   - Utilizar Gensim para entrenar vectores de palabras (embeddings) a partir del e-book proporcionado.
+   - Aplicar técnicas como Word2Vec o FastText para generar representaciones vectoriales de términos del e-book.
+
+2. **Análisis de Similitudes y Diferencias:**
+   - Seleccionar términos de interés y explorar sus similitudes y diferencias en el espacio de embeddings.
+   - Comparar cómo se relacionan semánticamente los términos según las distancias calculadas en el espacio vectorial.
+
+3. **Visualización y Conclusiones:**
+   - Graficar los embeddings para visualizar la distribución de los términos en un espacio dimensional reducido.
+   - Extraer conclusiones sobre las relaciones semánticas entre los términos, identificando patrones de similitud y diferenciación.
+
+### Datos
+
+Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
+
+- **Título:** Introduction to the study of the history of language
+- **Autores:** Herbert A. Strong, Willem Sijbrand Logeman, Benjamin Ide Wheeler
+- **Fecha de Publicación:** 8 de enero de 2019
+- **Idioma:** Inglés
+
+### Archivos Incluidos
+
+- `custom_embeddings.py`: Script para la creación y entrenamiento de embeddings personalizados con Gensim.
+- `visualizaciones.ipynb`: Notebook Jupyter con visualizaciones de los embeddings y análisis de términos.
+- `ebook_text.txt`: Texto del e-book utilizado para entrenar los embeddings.
+
+## Cómo Ejecutar
