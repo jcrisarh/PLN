@@ -61,4 +61,30 @@ Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
 - `visualizaciones.ipynb`: Notebook Jupyter con visualizaciones de los embeddings y análisis de términos.
 - `ebook_text.txt`: Texto del e-book utilizado para entrenar los embeddings.
 
-## Cómo Ejecutar
+## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras
+
+En este desafío, se implementará un modelo de lenguaje utilizando tokenización por palabras y arquitecturas de redes neuronales recurrentes.
+
+### Pasos y Consideraciones
+
+1. **Selección del Corpus:**
+   - Seleccionar un corpus de texto adecuado para entrenar el modelo de lenguaje. Puede ser un conjunto de libros, artículos o cualquier fuente de texto extensa.
+
+2. **Pre-procesamiento y Tokenización:**
+   - Realizar el pre-procesamiento necesario para tokenizar el corpus y estructurar el dataset.
+   - Separar los datos entre conjuntos de entrenamiento y validación para evaluar el desempeño del modelo.
+
+3. **Arquitecturas de Redes Neuronales Recurrentes:**
+   - Proponer y evaluar diferentes arquitecturas de redes neuronales recurrentes como SimpleRNN (celda de Elman), LSTM y GRU para implementar el modelo de lenguaje.
+   - Utilizar el optimizador rmsprop u otros optimizadores para la convergencia del modelo.
+
+4. **Generación de Nuevas Secuencias:**
+   - Implementar estrategias de generación de texto como greedy search y beam search (determinístico y estocástico) utilizando el modelo entrenado.
+   - Observar el efecto de la temperatura en la generación de secuencias estocásticas para controlar la creatividad del modelo.
+
+### Archivos Incluidos
+
+- `tokenizacion.py`: Script para el pre-procesamiento y tokenización del corpus.
+- `modelo_rnn.py`: Implementación de modelos de redes neuronales recurrentes (SimpleRNN, LSTM, GRU).
+- `generacion_texto.ipynb`: Notebook Jupyter con la implementación de generación de nuevas secuencias utilizando el modelo entrenado.
+
