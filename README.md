@@ -1,6 +1,6 @@
 # Desafíos de Procesamiento de Texto
 
-Este repositorio contiene soluciones y análisis para desafíos específicos de procesamiento de texto.
+Este repositorio contiene cinco desafíos de Procesamiento de Lenguaje Natural (NLP) implementados en forma de notebooks interactivos en Python. 
 
 ## Desafío 1: Vectorización y Similaridad de Documentos
 
