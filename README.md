@@ -16,11 +16,7 @@ El objetivo de este desafío es explorar la vectorización de documentos y medir
 
 ### Archivos Incluidos
 
-- `documento1.txt`, `documento2.txt`, ..., `documentoN.txt`: Ejemplos de documentos utilizados para el análisis.
-- `vectorizacion.py`: Script para realizar la vectorización y cálculo de similaridad.
-- `resultados_similaridad.csv`: Archivo CSV con los resultados de similaridad obtenidos.
-
-Para más detalles sobre la implementación y ejecución de este desafío, consulta los scripts y archivos mencionados.
+- `Desafio_1.ipynb`
 
 ## Desafío 2: Custom Embeddings con Gensim
 
