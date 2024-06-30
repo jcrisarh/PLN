@@ -2,23 +2,17 @@
 
 Este repositorio contiene cinco desafíos de Procesamiento de Lenguaje Natural (NLP) implementados en forma de notebooks interactivos en Python. 
 
-## Desafío 1: Vectorización y Similaridad de Documentos
+## Desafío 1: Vectorización de texto y modelo de clasificación Naïve Bayes
 
 El objetivo de este desafío es explorar la vectorización de documentos y medir la similaridad entre ellos. 
 
 ### Pasos y Análisis
 
-1. **Vectorización de Documentos:**
-   - Seleccionar 5 documentos al azar del conjunto de datos.
-   - Utilizar técnicas de vectorización como TF-IDF o CountVectorizer para representar los documentos como vectores numéricos.
+1. Se vectorizan documentos utilizando diferentes técnicas de representación de texto. Se seleccionan al azar 5 documentos y se mide la similaridad con el resto de los documentos del conjunto de datos. Posteriormente, se analizan los 5 documentos más similares de cada uno para evaluar si la similaridad tiene sentido en relación con el contenido del texto y las etiquetas de clasificación asociadas.
 
-2. **Medición de Similaridad:**
-   - Calcular la similaridad entre cada uno de los 5 documentos seleccionados y todos los demás documentos.
-   - Identificar los 5 documentos más similares para cada uno y analizar si esta similaridad tiene sentido en función del contenido del texto y las etiquetas de clasificación asociadas.
+2. Se entrenan modelos de clasificación Naïve Bayes con el objetivo de maximizar el desempeño de clasificación, medido mediante el f1-score macro en el conjunto de datos de prueba. Se considera la optimización de parámetros tanto para el vectorizador como para los modelos Naïve Bayes (Multinomial y ComplementNB), explorando cómo estos cambios afectan el rendimiento del modelo.
 
-3. **Análisis de Resultados:**
-   - Evaluar si las medidas de similaridad reflejan correctamente las relaciones semánticas entre los documentos.
-   - Comparar los resultados con las etiquetas de clasificación para verificar la coherencia.
+3. Se transpone la matriz documento-término para obtener una matriz término-documento. Con esta representación, se estudia la similaridad entre palabras seleccionando 5 palabras y analizando sus 5 palabras más similares según la representación vectorial. Este análisis permite explorar cómo las palabras se agrupan semánticamente en función de su contexto en los documentos.
 
 ### Archivos Incluidos
 
