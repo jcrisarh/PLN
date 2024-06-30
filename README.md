@@ -2,7 +2,7 @@
 
 Este repositorio contiene cinco desafíos de Procesamiento de Lenguaje Natural (NLP) implementados en forma de notebooks interactivos en Python. 
 
-## Desafío 1: Vectorización de texto y modelo de clasificación Naïve Bayes
+## Desafío 1: Vectorización de texto y modelo de clasificación Naïve Bayes con el dataset 20 newsgroups
 
 El objetivo de este desafío es explorar la vectorización de documentos y medir la similaridad entre ellos. 
 
