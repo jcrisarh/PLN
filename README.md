@@ -29,8 +29,7 @@ En este desafío, se explorará la creación de vectores personalizados utilizan
    - Se aplica la técnica Word2Vec para generar representaciones vectoriales de términos del e-book.
 
 2. **Análisis de Similitudes y Diferencias:**
-   - Se seleccionan términos de interés y se exploran sus similitudes y diferencias en el espacio de embeddings.
-   - Se comparar cómo se relacionan semánticamente los términos.
+   - Se seleccionan términos de interés y se exploran sus similitudes y diferencias en el espacio de embeddings. Se comparan cómo se relacionan semánticamente los términos.
 
 3. **Visualización:**
    - Se grafican los embeddings para visualizar la distribución de los términos en un espacio dimensional reducido.
