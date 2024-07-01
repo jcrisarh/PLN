@@ -50,13 +50,12 @@ Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
 
 #### Carpeta `docs`
 
-- `ebook_text.txt`: Texto completo del e-book utilizado para entrenar los embeddings.
-- `ebook_procesado`: Versión procesada del e-book, con partes irrelevantes eliminadas (`cleaned.txt`).
-- **Fotos en formato HTML**: Archivos HTML que contienen visualizaciones o información adicional relevante para el proyecto.
+- `Introduction_to_the_study_of_the_history_of_language.txt`: Texto completo del e-book utilizado para entrenar los embeddings.
+- `cleaned_text.txt`: Versión procesada del e-book, con partes irrelevantes eliminadas.
 
-    ebook_text.txt: Texto completo del e-book utilizado para entrenar los embeddings.
-    ebook_procesado: Versión procesada del e-book, con partes irrelevantes eliminadas (cleaned.txt).
-    Fotos en formato HTML: Archivos HTML que contienen visualizaciones o información adicional relevante para el proyecto.
+#### Carpeta `images`: Archivos HTML que contienen visualizaciones o información adicional relevante para el proyecto.
+
+- 
 
 ## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras
 
