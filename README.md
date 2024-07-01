@@ -81,6 +81,16 @@ En este desafío, se implementará un modelo de lenguaje utilizando tokenizació
 
 3. **Generación de Nuevas Secuencias:**
    - Se implementan las estrategias de generación de texto greedy search y beam search.
+
+### Datos
+
+Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
+
+- **Título:** The Happy Prince, and Other Tales
+- **Autores:** Oscar Wilde
+- **Fecha de Publicación:** Marzo de 1910
+- **Idioma:** Inglés
+
      
 
 ### Archivos Incluidos
@@ -91,7 +101,7 @@ En este desafío, se implementará un modelo de lenguaje utilizando tokenizació
 #### Carpeta `docs`:
 - `the_happy_prince_and_other_tales`: Texto completo proveniente del e-book utilizado.
 - `cleaned_text.txt`: Texto procesado para modelo de lenguaje por caracteres.
-- `cleaned_text2.txt: Texto procesado para modelo de lenguaje por palabras.`
+- `cleaned_text2.txt`: Texto procesado para modelo de lenguaje por palabras.
 
 #### Carpeta `images`:
 - Imágenes png de gradio para predecir la próxima palabra o caracter según corresponda al testear diferentes modelos.
