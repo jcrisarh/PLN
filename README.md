@@ -66,26 +66,22 @@ Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
 - `embedding2d_visualization.html`
 - `embedding3d_visualization.html`
 
-## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras
+## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras y Caractéres
 
-En este desafío, se implementará un modelo de lenguaje utilizando tokenización por palabras y arquitecturas de redes neuronales recurrentes.
+En este desafío, se implementará un modelo de lenguaje utilizando tokenización por palabras y caractéres y 3 arquitecturas: SimpleRNN, LSM y GRU.
 
-### Pasos y Consideraciones
+### Objetivos y Análisis
 
-1. **Selección del Corpus:**
-   - Seleccionar un corpus de texto adecuado para entrenar el modelo de lenguaje. Puede ser un conjunto de libros, artículos o cualquier fuente de texto extensa.
+1. **Selección del corpus, pre-procesamiento y tokeniación:**
+   - Se selecciona un corpus de texto proveniente de  un e-book de proyecto Gutenberg.adecuado para entrenar el modelo de lenguaje.
+   - Se reazliza la limpieza del corpus y la tokenización para estructurar el dataset. Se separan los datos en entrenamiento y validación.
 
-2. **Pre-procesamiento y Tokenización:**
-   - Realizar el pre-procesamiento necesario para tokenizar el corpus y estructurar el dataset.
-   - Separar los datos entre conjuntos de entrenamiento y validación para evaluar el desempeño del modelo.
+2. **Modelado y entrenamiento:**
+   - Se evaluan 3 arquitecturas diferentes para implementar el modelo de lenguaje con el optimizador rmsprop.
 
-3. **Arquitecturas de Redes Neuronales Recurrentes:**
-   - Proponer y evaluar diferentes arquitecturas de redes neuronales recurrentes como SimpleRNN (celda de Elman), LSTM y GRU para implementar el modelo de lenguaje.
-   - Utilizar el optimizador rmsprop u otros optimizadores para la convergencia del modelo.
-
-4. **Generación de Nuevas Secuencias:**
-   - Implementar estrategias de generación de texto como greedy search y beam search (determinístico y estocástico) utilizando el modelo entrenado.
-   - Observar el efecto de la temperatura en la generación de secuencias estocásticas para controlar la creatividad del modelo.
+3. **Generación de Nuevas Secuencias:**
+   - Se implementan las estrategias de generación de texto greedy search y beam search.
+     
 
 ### Archivos Incluidos
 
