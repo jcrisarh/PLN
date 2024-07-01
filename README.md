@@ -22,19 +22,18 @@ El objetivo de este desafío es explorar la vectorización de documentos y medir
 
 En este desafío, se explorará la creación de vectores personalizados utilizando Gensim basado en un e-book obtenido de Project Gutenberg.
 
-### Objetivos
+### Objetivos y Análisis
 
 1. **Creación de Vectores con Gensim:**
-   - Utilizar Gensim para entrenar vectores de palabras (embeddings) a partir del e-book proporcionado.
-   - Aplicar técnicas como Word2Vec o FastText para generar representaciones vectoriales de términos del e-book.
+   - Se utiliza Gensim para entrenar vectores de palabras (embeddings) a partir del e-book proporcionado.
+   - Se aplica la técnica Word2Vec para generar representaciones vectoriales de términos del e-book.
 
 2. **Análisis de Similitudes y Diferencias:**
-   - Seleccionar términos de interés y explorar sus similitudes y diferencias en el espacio de embeddings.
-   - Comparar cómo se relacionan semánticamente los términos según las distancias calculadas en el espacio vectorial.
+   - Se seleccionan términos de interés y se exploran sus similitudes y diferencias en el espacio de embeddings.
+   - Se comparar cómo se relacionan semánticamente los términos.
 
-3. **Visualización y Conclusiones:**
-   - Graficar los embeddings para visualizar la distribución de los términos en un espacio dimensional reducido.
-   - Extraer conclusiones sobre las relaciones semánticas entre los términos, identificando patrones de similitud y diferenciación.
+3. **Visualización:**
+   - Se grafican los embeddings para visualizar la distribución de los términos en un espacio dimensional reducido.
 
 ### Datos
 
@@ -47,9 +46,17 @@ Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
 
 ### Archivos Incluidos
 
-- `custom_embeddings.py`: Script para la creación y entrenamiento de embeddings personalizados con Gensim.
-- `visualizaciones.ipynb`: Notebook Jupyter con visualizaciones de los embeddings y análisis de términos.
-- `ebook_text.txt`: Texto del e-book utilizado para entrenar los embeddings.
+- `Desafio_2.ipynb`:  Notebook que aborda el segundo desafío del proyecto.
+
+#### Carpeta `docs`
+
+- `ebook_text.txt`: Texto completo del e-book utilizado para entrenar los embeddings.
+- `ebook_procesado`: Versión procesada del e-book, con partes irrelevantes eliminadas (`cleaned.txt`).
+- **Fotos en formato HTML**: Archivos HTML que contienen visualizaciones o información adicional relevante para el proyecto.
+
+    ebook_text.txt: Texto completo del e-book utilizado para entrenar los embeddings.
+    ebook_procesado: Versión procesada del e-book, con partes irrelevantes eliminadas (cleaned.txt).
+    Fotos en formato HTML: Archivos HTML que contienen visualizaciones o información adicional relevante para el proyecto.
 
 ## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras
 
