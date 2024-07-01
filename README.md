@@ -66,14 +66,14 @@ Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
 - `embedding2d_visualization.html`
 - `embedding3d_visualization.html`
 
-## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras y Caractéres
+## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras y Caracteres
 
 En este desafío, se implementará un modelo de lenguaje utilizando tokenización por palabras y caractéres y 3 arquitecturas: SimpleRNN, LSM y GRU.
 
 ### Objetivos y Análisis
 
-1. **Selección del corpus, pre-procesamiento y tokeniación:**
-   - Se selecciona un corpus de texto proveniente de  un e-book de proyecto Gutenberg.adecuado para entrenar el modelo de lenguaje.
+1. **Selección del corpus, pre-procesamiento y tokenización:**
+   - Se selecciona un corpus de texto proveniente de  un e-book de proyecto Gutenberg.
    - Se reazliza la limpieza del corpus y la tokenización para estructurar el dataset. Se separan los datos en entrenamiento y validación.
 
 2. **Modelado y entrenamiento:**
@@ -85,9 +85,19 @@ En este desafío, se implementará un modelo de lenguaje utilizando tokenizació
 
 ### Archivos Incluidos
 
-- `tokenizacion.py`: Script para el pre-procesamiento y tokenización del corpus.
-- `modelo_rnn.py`: Implementación de modelos de redes neuronales recurrentes (SimpleRNN, LSTM, GRU).
-- `generacion_texto.ipynb`: Notebook Jupyter con la implementación de generación de nuevas secuencias utilizando el modelo entrenado.
+- `Desafio3_char.ipynb`, `Desafio3_word.ipynb`: Notebooks para la implementación de los modelos de lenguaje por caracteres y palabras.
+- `GRU_character`, `GRU_word`, `LSTM_character`, `LSTM_word`, `SIMPLERNN_character`, `SIMPLERNN_word`, `GRU2_character.keras`, `LSTM2_character.keras` : Modelos entrenados.
+
+#### Carpeta `docs`:
+- `the_happy_prince_and_other_tales`: Texto completo proveniente del e-book utilizado.
+- `cleaned_text.txt`: Texto procesado para modelo de lenguaje por caracteres.
+- `cleaned_text2.txt: Texto procesado para modelo de lenguaje por palabras.`
+
+#### Carpeta `images`:
+- Imágenes png de gradio para predecir la próxima palabra o caracter según corresponda al testear diferentes modelos.
+
+
+  
 
 ## Desafío 4: LSTM Bot QA con datos del challenge ConvAI2
 
