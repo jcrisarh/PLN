@@ -6,7 +6,7 @@ Este repositorio contiene cinco desafíos de Procesamiento de Lenguaje Natural (
 
 El objetivo de este desafío es explorar la vectorización de documentos y medir la similaridad entre ellos. 
 
-### Pasos y Análisis
+### Objetivos y Análisis
 
 1. Se vectorizan documentos utilizando diferentes técnicas de representación de texto. Se seleccionan al azar 5 documentos y se mide la similaridad con el resto de los documentos del conjunto de datos. Posteriormente, se analizan los 5 documentos más similares de cada uno para evaluar si la similaridad tiene sentido en relación con el contenido del texto y las etiquetas de clasificación asociadas.
 
