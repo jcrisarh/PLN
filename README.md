@@ -20,8 +20,7 @@ El objetivo de este desafío es explorar la vectorización de documentos y medir
 
 ## Desafío 2: Custom Embeddings con Gensim
 
-![Ejemplo de Imagen](https://github.com/jcrisarh/PLN/blob/master/desafio_2/images/embedding3d_visualization.html)
-
+<img src="https://github.com/jcrisarh/PLN/blob/master/desafio_2/images/embedding3d_visualization.html" alt="Texto Alternativo" width="400" height="300">
 
 En este desafío, se explorará la creación de vectores personalizados utilizando Gensim basado en un e-book obtenido de Project Gutenberg.
 
