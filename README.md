@@ -129,5 +129,5 @@ Los datos utilizados provienen del challenge ConvAI2, que incluye conversaciones
 
 - `6-bot_qa.ipynb`: Notebook para el preprocesamiento de datos y la construcción del bot.
 - `data_volunteers.json`: Archivo json que contiene los datos.
-- `model_plot`,`encoder_plot`,`decoder_plot` : Gráficos generados de los modelos.
+- `model_plot.png`,`encoder_plot.png`,`decoder_plot.png` : Gráficos generados de los modelos.
 
