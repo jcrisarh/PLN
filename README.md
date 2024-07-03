@@ -64,7 +64,8 @@ Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
 - `caso['substantive', 'subject', 'noun', 'object', 'predicate'].html`
 - `embedding2d_visualization.html`
 - `embedding3d_visualization.html`
- ![embedding3d](https://github.com/jcrisarh/PLN/blob/master/desafio_2/images/embedding3d_visualization.html)
+
+![embedding3d](https://github.com/jcrisarh/PLN/blob/master/desafio_2/images/embedding3d_visualization.html)
 
 ## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras y Caracteres
 
