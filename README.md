@@ -131,3 +131,22 @@ Los datos utilizados provienen del challenge ConvAI2, que incluye conversaciones
 - `data_volunteers.json`: Archivo json que contiene los datos.
 - `model_plot.png`,`encoder_plot.png`,`decoder_plot.png` : Gráficos generados de los modelos.
 
+
+## Desafío 5: Bert Sentiment Analysis
+En este desafío se implementa un modelo Bert para Sentiment Analysis.
+
+### Datos
+
+Se utiliza como dataset las críticas de Google Apps en formato csv.
+
+### Objetivos y Análisis
+- Se entrena un modelo Bert para clasificacion de tres clases: Positivo, Neutral y Negativo, obtenido a partir de 5 clases originales.
+- Se entrena el modelo con las 5 clases originales: 1, 2, 3, 4 y 5.
+- Se añade una capa densa para el entrenamiento de las 5 clases originales.
+
+### Archivos Incluidos
+- `desafio_5.ipynb`: Notebook para el entrenamiento de Bert para sentiment analysis.
+- `apps.csv`, reviews.csv`: Archivos parte del dataset
+  
+
+
