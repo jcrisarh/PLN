@@ -148,7 +148,7 @@ Se utiliza como dataset las críticas de Google Apps en formato csv.
 
 ### Archivos Incluidos
 - `desafio_5.ipynb`: Notebook para el entrenamiento de Bert para sentiment analysis.
-- `apps.csv`, reviews.csv`: Archivos parte del dataset
+- `apps.csv`, `reviews.csv`: Archivos parte del dataset
   
 
 
