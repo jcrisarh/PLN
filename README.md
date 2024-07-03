@@ -110,33 +110,24 @@ Los datos utilizados provienen del siguiente e-book de Project Gutenberg:
 
 ## Desafío 4: LSTM Bot QA con datos del challenge ConvAI2
 
-En este desafío, se implementará un modelo basado en LSTM para construir un BOT capaz de responder preguntas del usuario utilizando datos del challenge ConvAI2.
+En este desafío, se implementa un modelo basado en LSTM para construir un BOT capaz de responder preguntas del usuario utilizando datos del challenge ConvAI2.
 
 ### Datos
 
-Los datos utilizados provienen del challenge ConvAI2, que incluye conversaciones en inglés diseñadas para evaluar la inteligencia conversacional de los sistemas. Puedes acceder a los datos en el siguiente enlace:
+Los datos utilizados provienen del challenge ConvAI2, que incluye conversaciones en inglés diseñadas para evaluar la inteligencia conversacional de los sistemas. Se puede acceder acceder a los datos en el siguiente enlace:
 
-- [ConvAI2 Challenge Data](link_al_dataset)
+- [ConvAI2 Challenge Data](http://convai.io/data/)
 
-### Objetivo
+### Objetivos y Análisis
 
-1. **Construcción del BOT QA:**
-   - Utilizar modelos LSTM para construir un BOT capaz de responder preguntas formuladas por usuarios en base a las conversaciones del dataset ConvAI2.
-
-2. **Pre-procesamiento de Datos:**
-   - Realizar el pre-procesamiento adecuado para limpiar y estructurar los datos del challenge ConvAI2.
-   - Separar los datos en conjuntos de entrenamiento y prueba para entrenar y evaluar el modelo.
-
-3. **Implementación de LSTM:**
-   - Implementar un modelo LSTM utilizando bibliotecas como TensorFlow, PyTorch o Keras para el procesamiento de secuencias y la generación de respuestas coherentes.
-
-4. **Evaluación y Ajuste:**
-   - Evaluar el desempeño del BOT QA utilizando métricas relevantes como precisión, recall y F1-score para respuestas generadas.
-   - Realizar ajustes en la arquitectura del modelo y en los hiperparámetros para mejorar la calidad de las respuestas.
+- Se realiza el pre-procesamiento adecuado para limpiar y estructurar los datos del challenge ConvAI2.
+- Se tokenizan las preguntas y respuestas.
+- Se separan los datos en conjuntos de entrenamiento y prueba para entrenar y evaluar el modelo.
+- Se utiliza un modelo LSTM para construir el bot conversacional.
 
 ### Archivos Incluidos
 
-- `preprocesamiento.py`: Script para el pre-procesamiento y estructuración de los datos del dataset ConvAI2.
-- `modelo_lstm.py`: Implementación del modelo LSTM para la construcción del BOT QA.
-- `evaluacion_modelo.ipynb`: Notebook Jupyter con la evaluación del desempeño del modelo y análisis de respuestas generadas.
+- `6-bot_qa.ipynb`: Notebook para el preprocesamiento de datos y la construcción del bot.
+- `data_volunteers.json`: Archivo json que contiene los datos.
+- `model_plot`,`encoder_plot`,`decoder_plot` : Gráficos generados de los modelos.
 
